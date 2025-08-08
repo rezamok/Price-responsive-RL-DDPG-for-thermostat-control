@@ -30,23 +30,23 @@ The repository includes:
 
 ## Repository Structure
 
-checkpoints/ # Contains the checkpoint for training progress
+- checkpoints/ # Contains the checkpoint for training progress
 
-kosta/ # Contains the main files, environment and hyperparameters for the RL
+- kosta/ # Contains the main files, environment and hyperparameters for the RL
 
-saves/ # The environment model and historical data are placed in this folder
+- saves/ # The environment model and historical data are placed in this folder
 
-requirements.txt # Python dependencies
+- requirements.txt # Python dependencies
 
-working\_directory/ # Contains the source codes to run training and testing
+- working\_directory/ # Contains the source codes to run training and testing
 
-working\_directory/run\_algorithm1.py # Source code to train the model
+- working\_directory/run\_algorithm1.py # Source code to train the model
 
-working\_directory/run\_test\_agent\_new.py # Source code to test the trained model with test dataset
+- working\_directory/run\_test\_agent\_new.py # Source code to test the trained model with test dataset
 
-LICENSE # License file
+- LICENSE # License file
 
-README.md # This file
+- README.md # This file
 
 
 
@@ -85,6 +85,7 @@ After including the environment model and historical data, run run\_algorithm1.p
 For questions, please contact:
 
 Reza Mokhtari — remok@dtu.dk
+
 
 
 
