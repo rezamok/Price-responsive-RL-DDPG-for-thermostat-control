@@ -2,7 +2,7 @@ Reproducible Code and Data for: "Price-responsive control using deep reinforceme
 
 
 
-\## Overview
+## Overview
 
 This repository is used to train a price-responsive reinforcement learning controller to control indoor thermostat of a room. The environment is a PCNN model, embedded in gym. 
 
@@ -28,41 +28,37 @@ The repository includes:
 
 
 
-\## Repository Structure
+## Repository Structure
 
-── checkpoints/ # Contains the checkpoint for training progress
+checkpoints/ # Contains the checkpoint for training progress
 
-├── kosta/ # Contains the main files, environment and hyperparameters for the RL
+kosta/ # Contains the main files, environment and hyperparameters for the RL
 
-├── saves/ # The environment model and historical data are placed in this folder
+saves/ # The environment model and historical data are placed in this folder
 
-├── requirements.txt # Python dependencies
+requirements.txt # Python dependencies
 
-├── working\_directory/ # Contains the source codes to run training and testing
+working\_directory/ # Contains the source codes to run training and testing
 
-├──  working\_directory/run\_algorithm1.py # Source code to train the model
+working\_directory/run\_algorithm1.py # Source code to train the model
 
-├──  working\_directory/run\_test\_agent\_new.py # Source code to test the trained model with test dataset
+working\_directory/run\_test\_agent\_new.py # Source code to test the trained model with test dataset
 
-├── LICENSE # License file
+LICENSE # License file
 
-└── README.md # This file
-
-
+README.md # This file
 
 
 
-\## Installation
 
-\### Option 1 — Using `pip`
 
-```bash
+## Installation
+
+### Option 1 — Using `pip`
 
 pip install -r requirements.txt
 
-
-
-\### Option 2 — Using Conda (recommended for reproducibility)
+### Option 2 — Using Conda (recommended for reproducibility)
 
 bash
 
@@ -76,7 +72,7 @@ conda activate myenv
 
 
 
-\## Usage
+## Usage
 
 After including the environment model and historical data, run run\_algorithm1.py located in the working\_directory. For hyperparameter settings, go to kosta/hyperparameters.py 
 
@@ -84,11 +80,12 @@ After including the environment model and historical data, run run\_algorithm1.p
 
 
 
-\## Contact
+## Contact
 
 For questions, please contact:
 
 Reza Mokhtari — remok@dtu.dk
+
 
 
 
